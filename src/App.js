@@ -5,7 +5,7 @@ import data from "./data/data";
 
 
 export default function App() {
-  const journals = data.Map(item => {
+  const journals = data.map(item => {
     return (
       <Journal
         key={item.id}
